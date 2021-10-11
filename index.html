@@ -14,11 +14,14 @@
 			background-image: url('solar.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
-			height: 600px;
+			height: auto;
 			width: 100%;
 			color: white;
 			padding-top: 30px;
 			padding-bottom: 30px;
+		}
+		.logo .nav2 {
+			text-align: justify;
 		}
 		.color1{
 			color: rgba(255, 255, 255, 0.6);
@@ -29,25 +32,22 @@
 	</style>
 </head>
 <body>
-	<div class="first">
-		<ul class="nav justify-content-center" >
-	<li class="name" style="font-size: 20px; font-family: arial;">BLUEWAVE</li>		
-    <li class="nav-item">
-      <a class="nav-link color1" href="#">Solution</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link color1" href="#">Company</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link color1" href="#">Resorces</a>
-    </li>
-    <li>
-    	<button type="button" class="btn" style="background-color: rgba(255, 255, 255, 0.2) ;margin-left: 300px;color: white;border-radius: 20px;">LOGIN</button>
-    </li>
-  </ul>
-  	<h1 class="text-center pt-5 pb-5">Join the solar<br>energy revolution</h1>
-  	<p class="text-center lead color1">from <b><a href="#" style="color:white;" >community solar</a></b> to <b><a href="#" style="color:white;">project development</a></b> to <b><a href="#" style="color:white;">home solar loans</a></b><br>we're creating better solar options in every neighbourhood we serve.</p><br>
-  	<center><button type="button" class="btn color2" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 20px;">Learn More</button></center>
-</div>
+	<div class=" container-fluid first">
+		<div class="row justify-content-sm-center">
+			<div class="col-md-1 col-sm-11"><span class="navbar-text" style="font-size: 20px; font-family: arial;">BLUEWAVE</span></div>
+			<div class="col-md-1 offset-md-1 col-sm-11"><a class="nav-link color1" href="#">Solution</a></div>
+			<div class="col-md-1 col-sm-11"><a class="nav-link color1" href="#">Company</a></div>
+			<div class="col-md-1 col-sm-11"><a class="nav-link color1" href="#">Resorces</a></div>
+			<div class="col-md-1 offset-md-1 col-sm-11"><button type="button" class="btn" style="background-color: rgba(255, 255, 255, 0.2) ;color: white;border-radius: 20px;">LOGIN</button></div>
+		<div>
+	<div class="row justify-content-md-center pt-5">
+		<div class="col"><h1 class="text-center pt-5">Join the solar<br>energy revolution</h1></div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="col"><p class="text-center lead color1">from <b><a href="#" style="color:white;" >community solar</a></b> to <b><a href="#" style="color:white;">project development</a></b> to <b><a href="#" style="color:white;">home solar loans</a></b><br>we're creating better solar options in every neighbourhood we serve.</p><br></div>
+	</div>
+	<center><button type="button" class="btn color2 mb-5" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 20px;">Learn More</button></center>
+	</div>
+		
 </body>
 </html>
