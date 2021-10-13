@@ -70,6 +70,24 @@
 			margin: 5px;
 			padding: 0px;	
 		}
+		.last {
+			background: linear-gradient(rgba(19,19,19,0.6),rgba(19,19,19,0.8)), url(panel.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 1100px;
+		}
+		.content {
+			background-color: white;
+			max-width: 800px;
+			height: 800px;
+			border-radius: 12px;
+			padding-top: 10px;
+			margin-top: 30px;
+		}
+		.end {
+			background-color: rgba(26, 23, 26, 0.98);
+			height: 800px;
+		}
 	</style>
 </head>
 <body>
@@ -196,7 +214,7 @@
 	<h5 class="text-center pt-5">feature</h5><br>
 	<p class="text-center" style="font-size:25px;">All things BlueWave Solar: Ideas, News, <br> Thought Leadership. Read on!</p>
 </div>
-<div class="container-fluid">
+<div class="container-fluid pb-5">
 	<div class="row justify-content-md-center align-items-baseline">
 		<div class="col-md-3 offset-md-1 panel1" style="border: 1px solid grey; border-radius:12px;"><img src="f.png" class = "img-responsive rounded pt-0" width = "100%">
 		 	<h5 class="text-center pt-3">BlueWave Solar<br>recognized as the #1 <br> Fastest growing private<br>company in <br> Massachusets</h5><br>
@@ -210,6 +228,57 @@
 		 	<h5 class="text-center pt-4">What's in a name? Meet<br>the new BlueWave</h5><br>
 		 		<p class="text-center" style="color:grey;">launching our 2019 updated visual <br> identity required us to first look <br> backward to 2010 when Co-Founder <br>John DeVilliars first named and <br> established what would become the <br>BlueWave Solar we know today.</p>
 		</div>
+	</div>
+</div>
+<div class="container-fluid last">
+	<h5 class="text-center pt-5" style="color:white;">contact</h5>
+	<p class="text-center" style="font-size:25px; color: white;">So, let's do this. Let's talk solar.</p>
+	<div class="container-fluid content pt-md-5" style="color:rgba(18, 17, 18, 0.8);">
+		<div class="row justify-content-center">
+			<div class="col-md-3 pt-md-5"><b>First Name</b><br><br>
+				<input type="text" placeholder="Anwar" style="border:none; border-bottom: 2px solid grey; width: 200px;">
+			</div>
+			<div class="col-md-3 offset-md-1 pt-md-5"><b>Last Name</b><br><br>
+				<input type="text" placeholder="Imam" style="border:none; border-bottom: 2px solid grey; width: 200px;">
+			</div>
+		</div>
+		<div class="row justify-content-center pt-5">
+			<div class="col-md-3 pt-md-3"><b>Email Address</b><br><br>
+				<input type="text" placeholder="xyz@abc.com" style="border:none; border-bottom: 2px solid grey; width: 200px;">
+			</div>
+			<div class="col-md-3 offset-md-1 pt-3"><b>Zip Code</b><br><br>
+				<input type="text" placeholder="000000" style="border:none; border-bottom: 2px solid grey; width: 200px;">
+			</div>
+			<center>
+			<div class="row justify-content-center pt-5">
+				<div class="col-md-5 pt-2"><b>I am interested in...</b><br><br>
+					<select style="border:none; border-bottom: 2px solid grey; color:rgba(72, 66, 72, 0.93); width:250px	;" id="options">
+						<option value="Signing up for community solar">Signing up for community solar</option>
+						<option value="Leasing my property for solar or energy storage development">Leasing my property for solar or energy storage development</option>
+						<option value="Joining the BlueWave team">Joining the BlueWave team</option>
+						<option value="Something else...">Something else...</option>
+					</select>
+				</div>
+				<div class="row justify-content-md-center pt-5">
+					<div class="col-md-7">
+						<input type="checkbox" name="nothing"><span>  Yes i want to stay up to date on the latest in solar! Subscribe me to your newsletter.</span><br><br>
+						<b>Anything else to add</b><br>
+						<input type="text" placeholder="Message" style="border:none; border-bottom: 2px solid grey; width: 200px;">
+					</div>
+				</div>
+			</div>
+		</center>
+					<div><center><button type="button" class="btn mt-md-5 mb-5" style="background-color: black; border-radius: 20px; color: white; margin-top: 30px; width: 100%;">SUBMIT</button></center><br><br></div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid end">
+	<div class="row">
+		<div class="col"></div>
 	</div>
 </div>
 
